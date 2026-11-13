@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-OBL-008",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'obligation",
+    "difficulty": "Facile",
+    "card_type": "Observation",
+    "xp": 20,
+    "source": "Code de la route - Art. R412-7"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'obligation",
+    "card_index": "Carte 008 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_obligation/facile/SIG-OBL-008_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Un panneau rond bleu avec une flèche courbée contournant un obstacle central indique :",
+    "options": [
+      {
+        "id": "A",
+        "text": "Contournement obligatoire de l'îlot par la droite ou la gauche selon le sens de la flèche",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Interdiction de contourner l'obstacle",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Rond-point à sens giratoire inversé",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Priorité à gauche",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 20,
+    "correct_option_id": "A",
+    "correct_option_label": "Contournement obligatoire de l'îlot par la droite ou la gauche selon le sens de la flèche",
+    "explanation": "Ce panneau impose de contourner l'obstacle ou l'îlot central dans le sens indiqué par la flèche.",
+    "2d_schema_url": "assets/images/panneaux_obligation/facile/SIG-OBL-008_2d.png",
+    "takeaway": "Le sens de la flèche de contournement doit être strictement respecté."
+  }
+}

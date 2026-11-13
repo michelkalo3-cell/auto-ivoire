@@ -1,0 +1,38 @@
+{
+  "card_info": {
+    "id": "MAR-SOL-EXP-001",
+    "category": "01_Signalisation",
+    "subcategory": "marquages_au_sol",
+    "difficulty": "expert",
+    "xp": 70,
+    "aspect_ratio": "4:3",
+    "image_3d": "assets/images/01_Signalisation/marquages_au_sol/3d/MAR-SOL-EXP-001_3d.jpg",
+    "image_2d": "assets/images/01_Signalisation/marquages_au_sol/2d/MAR-SOL-EXP-001_2d.png"
+  },
+  "question_screen": {
+    "question": "Vous arrivez sur une ligne mixte. La ligne continue est de votre côté et une ligne d’avertissement annonce la zone. Vous voulez dépasser. Quelle décision est correcte ?",
+    "options": [
+      "Ne pas franchir la ligne continue de votre côté",
+      "Accélérer pour passer avant les autres",
+      "Ignorer le marquage si la route est libre",
+      "S’arrêter systématiquement au milieu de la chaussée"
+    ],
+    "correct_answer": 0,
+    "timer": {
+      "chrono": 10,
+      "normal": 10
+    }
+  },
+  "explanation_screen": {
+    "title": "Correction",
+    "explanation": "Ne pas franchir la ligne continue de votre côté.",
+    "rule_id": "MAR-SOL-EXP-001",
+    "tags": [
+      "marquage au sol",
+      "signalisation horizontale",
+      "cas pratique",
+      "expert"
+    ],
+    "source": "Ministère des Transports de Côte d’Ivoire ; Code Learn CI"
+  }
+}

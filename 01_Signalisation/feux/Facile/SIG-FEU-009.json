@@ -1,0 +1,36 @@
+{
+  "card_info": {
+    "id": "SIG-FEU-009",
+    "category": "Signalisation",
+    "subcategory": "Feux",
+    "difficulty": "Facile",
+    "card_type": "Observation",
+    "xp": 20,
+    "source": "Code de la route - Art. R411-25"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Feux",
+    "card_index": "Carte 009 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/feux/facile/SIG-FEU-009_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Le feu est vert. Un panneau 'STOP' est fixé sur le même mât. Devez-vous marquer le STOP ?",
+    "options": [
+      { "id": "A", "text": "Oui, le panneau STOP s'applique toujours", "is_correct": false },
+      { "id": "B", "text": "Non, le feu vert prévaut sur le panneau", "is_correct": true },
+      { "id": "C", "text": "Oui, mais uniquement si d'autres voitures arrivent", "is_correct": false },
+      { "id": "D", "text": "Non, sauf pendant la nuit", "is_correct": false }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 20,
+    "correct_option_id": "B",
+    "correct_option_label": "Non, le feu vert prévaut sur le panneau",
+    "explanation": "Les feux tricolores en fonctionnement l'emportent sur la signalisation verticale de priorité. Le panneau STOP ne servira que si le feu est éteint ou clignotant.",
+    "2d_schema_url": "assets/images/feux/facile/SIG-FEU-009_2d.png",
+    "takeaway": "Le feu en marche annule les panneaux de priorité sous-jacents."
+  }
+}

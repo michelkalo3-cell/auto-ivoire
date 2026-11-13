@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-OBL-DIF-002",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'obligation",
+    "difficulty": "Difficile",
+    "card_type": "Analyse",
+    "xp": 50,
+    "source": "Code de la route - Art. R412-7"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'obligation",
+    "card_index": "Carte 002 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_obligation/difficile/SIG-OBL-DIF-002_3d.jpg",
+    "timer_seconds": 10,
+    "question": "Une voie réservée au covoiturage (2 occupants minimum) est signalée par panneau obligatoire, mais vous transportez un nourrisson en sus du conducteur. Le nourrisson compte-t-il comme second occupant ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non, un nourrisson ne compte jamais",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Oui, en général tout occupant humain, y compris un enfant en bas âge dûment installé, compte dans le total requis, sauf mention contraire explicite du panneau",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Non, il faut être majeur pour compter",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Oui, mais seulement s'il a plus de 3 ans",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 50,
+    "correct_option_id": "B",
+    "correct_option_label": "Oui, en général tout occupant humain, y compris un enfant en bas âge dûment installé, compte dans le total requis, sauf mention contraire explicite du panneau",
+    "explanation": "Sauf mention contraire explicite sur le panonceau local, le nombre d'occupants requis se compte en occupants humains présents dans le véhicule, quel que soit leur âge.",
+    "2d_schema_url": "assets/images/panneaux_obligation/difficile/SIG-OBL-DIF-002_2d.png",
+    "takeaway": "Vérifiez toujours le panonceau local pour les conditions précises de comptage des occupants sur une voie réservée."
+  }
+}

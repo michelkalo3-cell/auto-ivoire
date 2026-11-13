@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-MRQ-NOR-001",
+    "category": "Signalisation",
+    "subcategory": "Marquages au sol",
+    "difficulty": "Normal",
+    "card_type": "Analyse",
+    "xp": 35,
+    "source": "Code de la route - Art. R414-4"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Marquages au sol",
+    "card_index": "Carte 001 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/marquages_au_sol/normal/SIG-MRQ-NOR-001_3d.jpg",
+    "timer_seconds": 12,
+    "question": "Vous voulez dépasser sur une route où la ligne est mixte, discontinue de votre côté. Un virage sans visibilité arrive juste après le tronçon discontinu. Que faites-vous ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dépasser immédiatement car la ligne l'autorise",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Renoncer si la visibilité ne permet pas de terminer le dépassement avant la ligne continue",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Dépasser à cheval sur les deux lignes",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Klaxonner puis dépasser",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 35,
+    "correct_option_id": "B",
+    "correct_option_label": "Renoncer si la visibilité ne permet pas de terminer le dépassement avant la ligne continue",
+    "explanation": "Le marquage autorise le franchissement mais ne dispense jamais d'avoir une visibilité suffisante pour terminer la manœuvre en toute sécurité.",
+    "2d_schema_url": "assets/images/marquages_au_sol/normal/SIG-MRQ-NOR-001_2d.png",
+    "takeaway": "Le marquage autorise, mais la visibilité réelle décide si le dépassement est raisonnable."
+  }
+}

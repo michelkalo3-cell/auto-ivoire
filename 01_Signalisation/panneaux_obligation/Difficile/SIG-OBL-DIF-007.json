@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-OBL-DIF-007",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'obligation",
+    "difficulty": "Difficile",
+    "card_type": "Analyse",
+    "xp": 50,
+    "source": "Code de la route - Art. R432-1"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'obligation",
+    "card_index": "Carte 007 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_obligation/difficile/SIG-OBL-DIF-007_3d.jpg",
+    "timer_seconds": 10,
+    "question": "Une voie réservée impose 3 occupants minimum, mais un véhicule prioritaire (ambulance) circule seul dessus en intervention urgente. Ce véhicule est-il en infraction ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, la règle s'applique à tous sans exception",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Non, les véhicules d'intérêt général prioritaires en intervention urgente sont exemptés des règles de circulation incompatibles avec leur mission",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Oui, sauf accord préalable écrit",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Non, mais uniquement de nuit",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 50,
+    "correct_option_id": "B",
+    "correct_option_label": "Non, les véhicules d'intérêt général prioritaires en intervention urgente sont exemptés des règles de circulation incompatibles avec leur mission",
+    "explanation": "Les véhicules d'intérêt général prioritaires en intervention (ambulance, pompiers, police) bénéficient d'exemptions légales aux règles de circulation lorsque leur mission l'exige, sous réserve de ne pas mettre autrui en danger.",
+    "2d_schema_url": "assets/images/panneaux_obligation/difficile/SIG-OBL-DIF-007_2d.png",
+    "takeaway": "Les véhicules prioritaires en intervention sont exemptés de nombreuses obligations, y compris les voies réservées à occupation minimale."
+  }
+}

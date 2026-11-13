@@ -1,0 +1,59 @@
+{
+  "card_info": {
+    "id": "SIG-FEU-DIF-014",
+    "category": "Signalisation",
+    "subcategory": "Feux",
+    "difficulty": "Difficile",
+    "card_type": "Observation",
+    "xp": 50,
+    "rule_id": "rouge_integral",
+    "tags": [
+      "feu_rouge",
+      "rouge_integral",
+      "carrefour"
+    ],
+    "source": "Ministère des Transports de Côte d’Ivoire — Sécurité routière"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Feux",
+    "card_index": "Carte 014 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/feux/difficile/SIG-FEU-DIF-014_3d.jpg",
+    "timer_seconds": 12,
+    "question": "À un carrefour, votre feu vient de passer au rouge. Un autre feu est encore en phase de transition avant que toutes les branches soient au rouge. Que devez-vous retenir ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le rouge permet de s’engager si aucun véhicule n’arrive",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Le rouge impose l’arrêt ; une phase où toutes les branches sont rouges ne donne pas le droit de s’engager",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Le rouge permet de suivre le véhicule précédent",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Le rouge ne concerne que les véhicules venant de droite",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 50,
+    "correct_option_id": "B",
+    "correct_option_label": "Le rouge impose l’arrêt ; une phase où toutes les branches sont rouges ne donne pas le droit de s’engager",
+    "explanation": "Le feu rouge oblige à marquer l’arrêt. Pendant le temps de rouge intégral, les feux de toutes les branches sont au rouge et aucun véhicule n’est admis dans le carrefour.",
+    "2d_schema_url": "assets/images/feux/difficile/SIG-FEU-DIF-014_2d.png",
+    "takeaway": "Rouge = arrêt. Le rouge intégral sert justement à éviter les conflits entre mouvements du carrefour.",
+    "source_url": "https://www.transports.gouv.ci/securite-routiere/quelles-informations-cachent-les-feux-tricolores"
+  }
+}

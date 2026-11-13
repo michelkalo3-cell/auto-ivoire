@@ -1,0 +1,56 @@
+{
+  "card_info": {
+    "id": "SIG-PDA-EXP-008",
+    "category": "Signalisation",
+    "subcategory": "Panneaux de danger",
+    "difficulty": "Expert",
+    "card_type": "Analyse",
+    "xp": 70,
+    "source": "https://www.securiteroutiere.gouv.ci/?q=bonnes-pratiques%2Fou-se-trouve-le-danger-annonce-par-les-panneaux-de-danger",
+    "tags": [
+      "prudence"
+    ],
+    "rule_id": "respect_signalisation"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux de danger",
+    "card_index": "Carte 008 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_danger/expert/SIG-PDA-EXP-008_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Un conducteur voit un panneau de danger mais continue exactement comme avant. Quel est le principal problème de ce comportement ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il ne tient pas compte de l’avertissement destiné à lui permettre d’anticiper",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Il respecte parfaitement le panneau tant qu’il ne dépasse pas",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Le panneau ne s’applique qu’aux véhicules lourds",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Il doit obligatoirement faire demi-tour",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 70,
+    "correct_option_id": "A",
+    "correct_option_label": "Il ne tient pas compte de l’avertissement destiné à lui permettre d’anticiper",
+    "explanation": "Les panneaux de danger ont pour fonction d’attirer l’attention sur un risque et de permettre au conducteur d’adapter sa conduite avant de rencontrer ce danger.",
+    "2d_schema_url": "assets/images/panneaux_danger/expert/SIG-PDA-EXP-008_2d.png",
+    "takeaway": "Panneau de danger = anticiper, adapter son allure et rester vigilant."
+  }
+}

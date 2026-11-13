@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-PDA-DIF-006",
+    "category": "Signalisation",
+    "subcategory": "Panneaux de danger",
+    "difficulty": "Difficile",
+    "card_type": "Analyse",
+    "xp": 50,
+    "source": "Code de la route - Art. R412-6"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux de danger",
+    "card_index": "Carte 006 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_danger/difficile/SIG-PDA-DIF-006_3d.jpg",
+    "timer_seconds": 10,
+    "question": "Un panneau de danger 'intersection avec route sans priorité' est présent, mais un autre véhicule venant de la route secondaire ne ralentit pas et s'engage. Quelle est la bonne réaction ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Forcer le passage car vous êtes sur la route principale",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Freiner et céder si nécessaire pour éviter l'accident, même si vous êtes prioritaire",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Klaxonner et maintenir votre trajectoire",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Accélérer pour passer avant lui",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 50,
+    "correct_option_id": "B",
+    "correct_option_label": "Freiner et céder si nécessaire pour éviter l'accident, même si vous êtes prioritaire",
+    "explanation": "Être prioritaire n'exonère jamais de l'obligation d'éviter un accident : la prudence prime toujours sur le simple droit de priorité.",
+    "2d_schema_url": "assets/images/panneaux_danger/difficile/SIG-PDA-DIF-006_2d.png",
+    "takeaway": "La priorité ne dispense jamais de la prudence face à un danger réel et immédiat."
+  }
+}

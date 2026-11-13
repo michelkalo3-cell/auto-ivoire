@@ -1,0 +1,53 @@
+{
+  "card_info": {
+    "id": "SIG-FEU-NOR-020",
+    "category": "Signalisation",
+    "subcategory": "Feux",
+    "difficulty": "Normal",
+    "card_type": "Analyse",
+    "xp": 35,
+    "source": "Ministère des Transports de Côte d’Ivoire — « Quelles informations cachent les feux tricolores ? » / « Comment communiquer avec les autres usagers ? »"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Feux",
+    "card_index": "Carte 020 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/feux/normal/SIG-FEU-NOR-020_3d.jpg",
+    "timer_seconds": 12,
+    "question": "Votre véhicule tombe en panne et crée un risque pour les autres usagers. Quel dispositif lumineux peut servir à avertir d’un obstacle ou d’un ralentissement soudain ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Les feux de détresse",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Les feux de route uniquement",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Les feux de position uniquement",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Aucun signal",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 35,
+    "correct_option_id": "A",
+    "correct_option_label": "Les feux de détresse",
+    "explanation": "Le Ministère indique que les feux de détresse servent notamment à avertir les autres usagers d’un risque d’obstacle, par exemple en cas de panne ou de ralentissement soudain.",
+    "2d_schema_url": "assets/images/feux/normal/SIG-FEU-NOR-020_2d.png",
+    "takeaway": "Feux de détresse = avertir les autres usagers d’un risque ou d’un obstacle.",
+    "source_url": "https://www.transports.gouv.ci/securite-routiere/quelles-informations-cachent-les-feux-tricolores"
+  }
+}

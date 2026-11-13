@@ -1,0 +1,36 @@
+{
+  "card_info": {
+    "id": "SIG-FEU-020",
+    "category": "Signalisation",
+    "subcategory": "Feux",
+    "difficulty": "Facile",
+    "card_type": "Observation",
+    "xp": 20,
+    "source": "Code de la route - Art. R412-32"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Feux",
+    "card_index": "Carte 020 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/feux/facile/SIG-FEU-020_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Une flèche jaune clignote vers la droite pendant que le feu principal est rouge. Que pouvez-vous faire ?",
+    "options": [
+      { "id": "A", "text": "Attendre que le feu principal passe au vert", "is_correct": false },
+      { "id": "B", "text": "Tourner à droite avec précaution en cédant le passage", "is_correct": true },
+      { "id": "C", "text": "Continuer tout droit", "is_correct": false },
+      { "id": "D", "text": "Tourner à droite sans ralentir", "is_correct": false }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 20,
+    "correct_option_id": "B",
+    "correct_option_label": "Tourner à droite avec précaution en cédant le passage",
+    "explanation": "La flèche jaune clignotante vous autorise à effectuer la manœuvre indiquée malgré le feu rouge principal, à condition de céder le passage aux usagers de la voie abordée.",
+    "2d_schema_url": "assets/images/feux/facile/SIG-FEU-0120_2d.png",
+    "takeaway": "Flèche jaune clignotante = passage autorisé dans la direction indiquée en cédant le passage."
+  }
+}

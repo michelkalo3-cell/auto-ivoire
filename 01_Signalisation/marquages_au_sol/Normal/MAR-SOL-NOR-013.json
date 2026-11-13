@@ -1,0 +1,37 @@
+{
+  "card_info": {
+    "id": "MAR-SOL-NOR-013",
+    "category": "01_Signalisation",
+    "subcategory": "marquages_au_sol",
+    "difficulty": "normal",
+    "xp": 20,
+    "aspect_ratio": "4:3",
+    "image_3d": "assets/images/01_Signalisation/marquages_au_sol/3d/MAR-SOL-NOR-013_3d.jpg",
+    "image_2d": "assets/images/01_Signalisation/marquages_au_sol/2d/MAR-SOL-NOR-013_2d.png"
+  },
+  "question_screen": {
+    "question": "Pourquoi le marquage au sol est-il utile la nuit ?",
+    "options": [
+      "Il aide à se guider lorsque la visibilité est réduite",
+      "Elle autorise toujours le stationnement",
+      "Elle impose toujours d’accélérer",
+      "Elle remplace tous les panneaux"
+    ],
+    "correct_answer": 0,
+    "timer": {
+      "chrono": 10,
+      "normal": 14
+    }
+  },
+  "explanation_screen": {
+    "title": "Correction",
+    "explanation": "La bonne réponse est : Il aide à se guider lorsque la visibilité est réduite. Cette notion relève de la signalisation horizontale et des règles de circulation.",
+    "rule_id": "MAR-SOL-013",
+    "tags": [
+      "conduite de nuit",
+      "signalisation horizontale",
+      "code de la route"
+    ],
+    "source": "Code Learn CI — signalisation horizontale ; Ministère des Transports de Côte d’Ivoire"
+  }
+}

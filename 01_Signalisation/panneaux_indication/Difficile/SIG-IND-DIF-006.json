@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-IND-DIF-006",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'indication",
+    "difficulty": "Difficile",
+    "card_type": "Analyse",
+    "xp": 50,
+    "source": "Code de la route - Art. R414-4"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'indication",
+    "card_index": "Carte 006 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_indication/difficile/SIG-IND-DIF-006_3d.jpg",
+    "timer_seconds": 10,
+    "question": "Un panneau 'zone 30' partagée avec des aménagements cyclables ne précise pas de règle de dépassement des vélos. Quelle règle générale appliquer envers un cycliste dans cette zone ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le dépasser à vitesse normale sans distance particulière",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Respecter une distance latérale de sécurité adaptée même à faible vitesse",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Klaxonner avant de dépasser",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Interdiction totale de dépasser en zone 30",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 50,
+    "correct_option_id": "B",
+    "correct_option_label": "Respecter une distance latérale de sécurité adaptée même à faible vitesse",
+    "explanation": "Même en zone à vitesse réduite, la distance latérale de sécurité lors du dépassement d'un cycliste reste une obligation générale du Code de la route.",
+    "2d_schema_url": "assets/images/panneaux_indication/difficile/SIG-IND-DIF-006_2d.png",
+    "takeaway": "La zone 30 réduit la vitesse mais ne supprime jamais l'obligation de distance latérale envers les cyclistes."
+  }
+}

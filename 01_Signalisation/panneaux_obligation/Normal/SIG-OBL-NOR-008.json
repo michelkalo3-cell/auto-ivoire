@@ -1,0 +1,36 @@
+{
+  "card_info": {
+    "id": "SIG-OBL-NOR-008",
+    "category": "01_Signalisation",
+    "subcategory": "panneaux_obligation",
+    "difficulty": "normal",
+    "xp": 20,
+    "aspect_ratio": "4:3",
+    "image_3d": "assets/images/01_Signalisation/panneaux_obligation/3d/SIG-OBL-NOR-008_3d.jpg",
+    "image_2d": "assets/images/01_Signalisation/panneaux_obligation/2d/SIG-OBL-NOR-008_2d.png"
+  },
+  "question_screen": {
+    "question": "Quand faut-il préparer une direction obligatoire avant un carrefour ?",
+    "options": [
+      "Suffisamment tôt avant l’intersection",
+      "Accélérer",
+      "Ignorer le panneau",
+      "Faire une manœuvre brusque"
+    ],
+    "correct_answer": 0,
+    "timer": {
+      "chrono": 10,
+      "normal": 14
+    }
+  },
+  "explanation_screen": {
+    "title": "Correction",
+    "explanation": "Suffisamment tôt avant l’intersection.",
+    "rule_id": "SIG-OBL-NOR-008",
+    "tags": [
+      "panneaux d’obligation",
+      "signalisation verticale"
+    ],
+    "source": "Ministère des Transports de Côte d’Ivoire"
+  }
+}

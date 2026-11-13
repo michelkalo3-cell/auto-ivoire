@@ -1,0 +1,59 @@
+{
+  "card_info": {
+    "id": "SIG-FEU-EXP-001",
+    "category": "Signalisation",
+    "subcategory": "Feux",
+    "difficulty": "Expert",
+    "card_type": "Situation",
+    "xp": 70,
+    "rule_id": "feu_vert",
+    "tags": [
+      "feux_tricolores",
+      "feu_vert",
+      "situation"
+    ],
+    "source": "Ministère des Transports de Côte d’Ivoire — Sécurité routière"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Feux",
+    "card_index": "Carte 01 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/feux/expert/SIG-FEU-EXP-001_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Vous arrivez au feu vert, mais la file devant vous bloque déjà le carrefour. Quelle décision est la plus sûre ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vous engager quand même puisque le vert vous autorise",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Attendre avant le carrefour jusqu’à ce que l’espace se libère",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Klaxonner pour forcer les véhicules à avancer",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Passer sur le côté pour contourner la file",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 70,
+    "correct_option_id": "B",
+    "correct_option_label": "Attendre avant le carrefour jusqu’à ce que l’espace se libère",
+    "explanation": "Le feu vert autorise le passage, mais le Ministère recommande d’attendre lorsque le carrefour est embouteillé afin de ne pas aggraver le bouchon.",
+    "2d_schema_url": "assets/images/feux/expert/SIG-FEU-EXP-001_2d.png",
+    "takeaway": "Un feu vert n’est pas un permis de bloquer le carrefour.",
+    "source_url": "https://www.transports.gouv.ci/securite-routiere/quelles-informations-cachent-les-feux-tricolores"
+  }
+}

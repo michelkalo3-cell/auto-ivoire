@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-IND-NOR-001",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'indication",
+    "difficulty": "Normal",
+    "card_type": "Analyse",
+    "xp": 35,
+    "source": "Code de la route - Art. R411-25"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'indication",
+    "card_index": "Carte 001 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_indication/normal/SIG-IND-NOR-001_3d.jpg",
+    "timer_seconds": 12,
+    "question": "Vous voyez un panneau 'Zone 30' à l'entrée d'un quartier résidentiel. Quelle est la portée exacte de cette limitation ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elle s'applique uniquement à la première rue après le panneau",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Elle s'applique à toute la zone jusqu'au panneau de fin de zone",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Elle ne concerne que les jours ouvrés",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Elle ne concerne que les poids lourds",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 35,
+    "correct_option_id": "B",
+    "correct_option_label": "Elle s'applique à toute la zone jusqu'au panneau de fin de zone",
+    "explanation": "Une zone 30 s'applique à l'ensemble du secteur délimité par les panneaux d'entrée et de sortie, pas seulement à une rue.",
+    "2d_schema_url": "assets/images/panneaux_indication/normal/SIG-IND-NOR-001_2d.png",
+    "takeaway": "Une 'zone' réglementaire couvre tout le secteur jusqu'au panneau de fin correspondant."
+  }
+}

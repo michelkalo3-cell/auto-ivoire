@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-MRQ-NOR-010",
+    "category": "Signalisation",
+    "subcategory": "Marquages au sol",
+    "difficulty": "Normal",
+    "card_type": "Analyse",
+    "xp": 35,
+    "source": "Code de la route - Art. R411-25"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Marquages au sol",
+    "card_index": "Carte 010 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/marquages_au_sol/normal/SIG-MRQ-NOR-010_3d.jpg",
+    "timer_seconds": 12,
+    "question": "Sur une route à double sens, vous voyez des hachures blanches obliques juste avant un terre-plein central. Pouvez-vous les utiliser pour doubler un véhicule lent ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non, cette zone est interdite à la circulation, même temporairement",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Oui, brièvement si aucun danger n'est visible",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Oui, si vous mettez vos warnings",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Oui, uniquement de nuit",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 35,
+    "correct_option_id": "A",
+    "correct_option_label": "Non, cette zone est interdite à la circulation, même temporairement",
+    "explanation": "Les hachures matérialisent une zone strictement interdite à la circulation, quelle que soit la raison invoquée pour l'emprunter.",
+    "2d_schema_url": "assets/images/marquages_au_sol/normal/SIG-MRQ-NOR-010_2d.png",
+    "takeaway": "Les zébras/hachures sont infranchissables, même pour dépasser un véhicule lent."
+  }
+}

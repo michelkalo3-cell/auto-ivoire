@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-INT-DIF-010",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'interdiction",
+    "difficulty": "Difficile",
+    "card_type": "Analyse",
+    "xp": 50,
+    "source": "Code de la route - Art. R411-8"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'interdiction",
+    "card_index": "Carte 010 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_interdiction/difficile/SIG-INT-DIF-010_3d.jpg",
+    "timer_seconds": 10,
+    "question": "Un panneau 'interdiction de circuler' concerne les véhicules de plus de 7,5 tonnes certains jours fériés, mais vous transportez une cargaison périssable justifiant une urgence sanitaire. Existe-t-il une exception possible ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non, aucune exception n'est jamais tolérée quelle que soit la cargaison",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Oui, certaines réglementations prévoient des dérogations pour denrées périssables sous conditions précises à vérifier au préalable",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Oui, automatiquement sans formalité",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Non, sauf accord verbal du client destinataire",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 50,
+    "correct_option_id": "B",
+    "correct_option_label": "Oui, certaines réglementations prévoient des dérogations pour denrées périssables sous conditions précises à vérifier au préalable",
+    "explanation": "Les restrictions de circulation des poids lourds prévoient souvent des dérogations encadrées pour certains transports sensibles (denrées périssables, animaux vivants), sous réserve de démarches préalables spécifiques.",
+    "2d_schema_url": "assets/images/panneaux_interdiction/difficile/SIG-INT-DIF-010_2d.png",
+    "takeaway": "Les dérogations aux interdictions de circulation des poids lourds existent mais doivent être vérifiées et justifiées à l'avance."
+  }
+}

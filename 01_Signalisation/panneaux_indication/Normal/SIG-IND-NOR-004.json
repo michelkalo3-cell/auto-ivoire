@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-IND-NOR-004",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'indication",
+    "difficulty": "Normal",
+    "card_type": "Analyse",
+    "xp": 35,
+    "source": "Code de la route - Art. R411-25"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'indication",
+    "card_index": "Carte 004 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_indication/normal/SIG-IND-NOR-004_3d.jpg",
+    "timer_seconds": 12,
+    "question": "Un panneau bleu 'hôpital' est visible en ville alors que vous transportez un blessé léger. Devez-vous forcer le passage aux intersections ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oui, un panneau hôpital donne priorité absolue",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Non, ce panneau est une simple indication de localisation, pas une priorité de circulation",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Oui, en activant vos warnings",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Non, il faut faire demi-tour",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 35,
+    "correct_option_id": "B",
+    "correct_option_label": "Non, ce panneau est une simple indication de localisation, pas une priorité de circulation",
+    "explanation": "Le panneau d'indication signale seulement la présence d'un hôpital ; il ne confère aucune priorité de circulation particulière au conducteur.",
+    "2d_schema_url": "assets/images/panneaux_indication/normal/SIG-IND-NOR-004_2d.png",
+    "takeaway": "Un panneau d'indication informe, il ne donne jamais de priorité de circulation."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "card_info": {
+    "id": "SIG-FEU-DIF-004",
+    "category": "Signalisation",
+    "subcategory": "Feux",
+    "difficulty": "Difficile",
+    "card_type": "Analyse",
+    "xp": 50,
+    "source": "Code de la route - Art. R415-5"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Feux",
+    "card_index": "Carte 004 / 005",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/feux/difficile/SIG-FEU-DIF-004_3d.jpg",
+    "timer_seconds": 10,
+    "question": "Le feu en face est éteint, mais les feux transversaux fonctionnent. Aucun panneau n'est visible. Comment réagir ?",
+    "options": [
+      { "id": "A", "text": "Considérer que vous avez la priorité absolue", "is_correct": false },
+      { "id": "B", "text": "S'arrêter complètement par prudence comme face à un feu en panne", "is_correct": true },
+      { "id": "C", "text": "Traverser très vite pour dégager la zone", "is_correct": false },
+      { "id": "D", "text": "Suivre de près la voiture qui vous précède", "is_correct": false }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 50,
+    "correct_option_id": "B",
+    "correct_option_label": "S'arrêter complètement par prudence comme face à un feu en panne",
+    "explanation": "Une panne partielle de feu crée une situation d'extrême danger. En l'absence de certitude sur l'état des autres feux, il faut marquer l'arrêt et céder le passage.",
+    "2d_schema_url": "assets/images/feux/difficile/SIG-FEU-DIF-004_2d.png",
+    "takeaway": "Anomalie d'affichage = prudence maximale et arrêt de sécurité."
+  }
+}

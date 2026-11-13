@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-INT-015",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'interdiction",
+    "difficulty": "Facile",
+    "card_type": "Observation",
+    "xp": 20,
+    "source": "Code de la route - Art. R411-25"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'interdiction",
+    "card_index": "Carte 015 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_interdiction/facile/SIG-INT-015_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Un panneau rectangulaire blanc avec une hauteur maximale barrée par une structure (ex. '3,5 m') indique :",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hauteur maximale autorisée pour les véhicules",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Largeur maximale autorisée",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Poids maximal autorisé",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Vitesse maximale autorisée",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 20,
+    "correct_option_id": "A",
+    "correct_option_label": "Hauteur maximale autorisée pour les véhicules",
+    "explanation": "Ce panneau interdit le passage aux véhicules dont la hauteur dépasse la valeur indiquée, utile sous les ponts et tunnels.",
+    "2d_schema_url": "assets/images/panneaux_interdiction/facile/SIG-INT-015_2d.png",
+    "takeaway": "Un panneau de gabarit avec une hauteur = limite physique de passage, pas une vitesse."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "card_info": {
+    "id": "SIG-PDA-EXP-003",
+    "category": "Signalisation",
+    "subcategory": "Panneaux de danger",
+    "difficulty": "Expert",
+    "card_type": "Observation",
+    "xp": 70,
+    "source": "https://www.securiteroutiere.gouv.ci/?q=bonnes-pratiques%2Fou-se-trouve-le-danger-annonce-par-les-panneaux-de-danger",
+    "tags": [
+      "enfants"
+    ],
+    "rule_id": "danger_enfants"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux de danger",
+    "card_index": "Carte 003 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_danger/expert/SIG-PDA-EXP-003_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Un panneau triangulaire à bordure rouge comporte un symbole noir représentant deux enfants. Quelle information donne-t-il ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Il annonce un endroit fréquenté ou susceptible d’être fréquenté par des enfants",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Il interdit le passage aux enfants",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Il indique une aire de jeux obligatoire",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Il donne la priorité aux enfants sur tous les véhicules",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 70,
+    "correct_option_id": "A",
+    "correct_option_label": "Il annonce un endroit fréquenté ou susceptible d’être fréquenté par des enfants",
+    "explanation": "Les panneaux de danger ont pour fonction d’attirer l’attention sur un risque et de permettre au conducteur d’adapter sa conduite avant de rencontrer ce danger.",
+    "2d_schema_url": "assets/images/panneaux_danger/expert/SIG-PDA-EXP-003_2d.png",
+    "takeaway": "Panneau de danger = anticiper, adapter son allure et rester vigilant."
+  }
+}

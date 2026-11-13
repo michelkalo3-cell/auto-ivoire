@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-PDA-NOR-008",
+    "category": "Signalisation",
+    "subcategory": "Panneaux de danger",
+    "difficulty": "Normal",
+    "card_type": "Analyse",
+    "xp": 35,
+    "source": "Code de la route - Art. R411-25"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux de danger",
+    "card_index": "Carte 008 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_danger/normal/SIG-PDA-NOR-008_3d.jpg",
+    "timer_seconds": 12,
+    "question": "Un panneau de danger 'vent latéral' précède un pont. Quel risque devez-vous anticiper au volant d'un véhicule léger ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aucun risque particulier",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Une déviation de trajectoire due aux rafales",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Une panne de moteur",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Un excès de vitesse automatique",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 35,
+    "correct_option_id": "B",
+    "correct_option_label": "Une déviation de trajectoire due aux rafales",
+    "explanation": "Le vent latéral, fréquent sur les ponts, peut faire dévier la trajectoire du véhicule, surtout à vitesse élevée.",
+    "2d_schema_url": "assets/images/panneaux_danger/normal/SIG-PDA-NOR-008_2d.png",
+    "takeaway": "Réduisez votre vitesse et gardez fermement le volant en zone de vent latéral."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-INT-001",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'interdiction",
+    "difficulty": "Facile",
+    "card_type": "Observation",
+    "xp": 20,
+    "source": "Code de la route - Art. R412-7"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'interdiction",
+    "card_index": "Carte 001 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_interdiction/facile/SIG-INT-001_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Un panneau rond à fond blanc bordé de rouge avec une barre horizontale signifie :",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sens interdit",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Sens unique",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Cédez le passage",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Route prioritaire",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 20,
+    "correct_option_id": "A",
+    "correct_option_label": "Sens interdit",
+    "explanation": "Ce panneau interdit formellement l'accès à la voie dans ce sens de circulation.",
+    "2d_schema_url": "assets/images/panneaux_interdiction/facile/SIG-INT-001_2d.png",
+    "takeaway": "Cercle rouge avec barre blanche = sens interdit, jamais franchissable."
+  }
+}

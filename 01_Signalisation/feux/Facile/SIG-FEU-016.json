@@ -1,0 +1,36 @@
+{
+  "card_info": {
+    "id": "SIG-FEU-016",
+    "category": "Signalisation",
+    "subcategory": "Feux",
+    "difficulty": "Facile",
+    "card_type": "Observation",
+    "xp": 20,
+    "source": "Code de la route - Art. R412-30"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Feux",
+    "card_index": "Carte 016 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/feux/facile/SIG-FEU-016_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Deux feux rouges clignotent alternativement près d'une caserne de pompiers. Que devez-vous faire ?",
+    "options": [
+      { "id": "A", "text": "Passer rapidement avant le départ des véhicules", "is_correct": false },
+      { "id": "B", "text": "Marquer l'arrêt absolu avant le signal", "is_correct": true },
+      { "id": "C", "text": "Ralentir et céder le passage uniquement s'il y a une sirène", "is_correct": false },
+      { "id": "D", "text": "Continuer car le rouge clignotant vaut un simple cédé le passage", "is_correct": false }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 20,
+    "correct_option_id": "B",
+    "correct_option_label": "Marquer l'arrêt absolu avant le signal",
+    "explanation": "Les feux rouges clignotants alternés imposent l'arrêt absolu de tous les usagers pour laisser la priorité aux accès d'urgence ou sécuriser une zone.",
+    "2d_schema_url": "assets/images/feux/facile/SIG-FEU-016_2d.png",
+    "takeaway": "Feux rouges clignotants alternés = arrêt obligatoire."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "card_info": {
+    "id": "SIG-FEU-DIF-017",
+    "category": "Signalisation",
+    "subcategory": "Feux",
+    "difficulty": "Difficile",
+    "card_type": "Piège",
+    "xp": 50,
+    "rule_id": "feu_orange_acceleration",
+    "tags": [
+      "feu_orange",
+      "piege",
+      "anticipation"
+    ],
+    "source": "Ministère des Transports de Côte d’Ivoire — Sécurité routière"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Feux",
+    "card_index": "Carte 017 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/feux/difficile/SIG-FEU-DIF-017_3d.jpg",
+    "timer_seconds": 12,
+    "question": "Un conducteur voit un feu orange et décide d’accélérer pour « éviter le rouge ». Pourquoi cette stratégie est-elle contraire à la conduite attendue ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parce que l’orange signifie qu’il faut accélérer",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Parce que l’orange prépare à l’arrêt et que son franchissement est en principe interdit",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Parce que le rouge ne peut jamais suivre l’orange",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Parce que l’accélération est obligatoire à chaque changement de feu",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 50,
+    "correct_option_id": "B",
+    "correct_option_label": "Parce que l’orange prépare à l’arrêt et que son franchissement est en principe interdit",
+    "explanation": "Le feu orange prépare l’automobiliste à amorcer l’arrêt. Accélérer uniquement pour gagner le passage va à l’encontre de cette logique de sécurité.",
+    "2d_schema_url": "assets/images/feux/difficile/SIG-FEU-DIF-017_2d.png",
+    "takeaway": "À l’orange, pense d’abord arrêt sécurisé — pas course contre la montre.",
+    "source_url": "https://www.transports.gouv.ci/securite-routiere/quelles-informations-cachent-les-feux-tricolores"
+  }
+}

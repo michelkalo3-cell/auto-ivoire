@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-INT-016",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'interdiction",
+    "difficulty": "Facile",
+    "card_type": "Observation",
+    "xp": 20,
+    "source": "Code de la route - Art. R411-25"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'interdiction",
+    "card_index": "Carte 016 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_interdiction/facile/SIG-INT-016_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Un panneau rond bordé de rouge avec une remorque dessinée indique :",
+    "options": [
+      {
+        "id": "A",
+        "text": "Interdiction de circuler avec une remorque",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Obligation d'atteler une remorque",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Zone de dételage",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Parking pour remorques",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 20,
+    "correct_option_id": "A",
+    "correct_option_label": "Interdiction de circuler avec une remorque",
+    "explanation": "Ce panneau interdit l'accès aux véhicules tractant une remorque sur la voie concernée.",
+    "2d_schema_url": "assets/images/panneaux_interdiction/facile/SIG-INT-016_2d.png",
+    "takeaway": "Remorque barrée = interdiction pour les ensembles tractés."
+  }
+}

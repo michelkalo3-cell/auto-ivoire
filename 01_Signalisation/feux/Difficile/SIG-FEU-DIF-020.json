@@ -1,0 +1,60 @@
+{
+  "card_info": {
+    "id": "SIG-FEU-DIF-020",
+    "category": "Signalisation",
+    "subcategory": "Feux",
+    "difficulty": "Difficile",
+    "card_type": "Chrono",
+    "xp": 50,
+    "rule_id": "trois_couleurs_reflexes",
+    "tags": [
+      "feux_tricolores",
+      "rouge",
+      "vert",
+      "orange"
+    ],
+    "source": "Ministère des Transports de Côte d’Ivoire — Sécurité routière"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Feux",
+    "card_index": "Carte 020 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/feux/difficile/SIG-FEU-DIF-020_3d.jpg",
+    "timer_seconds": 10,
+    "question": "En 10 secondes, choisissez la seule séquence cohérente avec les consignes officielles : feu rouge, feu vert, feu orange.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rouge = arrêt ; vert = autorisation ; orange = préparation à l’arrêt",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Rouge = ralentir ; vert = obligation ; orange = accélérer",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Rouge = passage ; vert = arrêt ; orange = priorité absolue",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Rouge = klaxon ; vert = dépassement ; orange = marche arrière",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 50,
+    "correct_option_id": "A",
+    "correct_option_label": "Rouge = arrêt ; vert = autorisation ; orange = préparation à l’arrêt",
+    "explanation": "Le rouge oblige à l’arrêt. Le vert autorise le passage sans l’imposer. L’orange prépare à l’arrêt et son franchissement est en principe interdit sauf si l’arrêt ne peut pas être effectué en sécurité.",
+    "2d_schema_url": "assets/images/feux/difficile/SIG-FEU-DIF-020_2d.png",
+    "takeaway": "Retenir les trois réflexes : ROUGE = ARRÊT · VERT = AUTORISATION · ORANGE = PRÉPARATION À L’ARRÊT.",
+    "source_url": "https://www.transports.gouv.ci/securite-routiere/en-voiture-comment-se-positionner-sur-la-chaussee"
+  }
+}

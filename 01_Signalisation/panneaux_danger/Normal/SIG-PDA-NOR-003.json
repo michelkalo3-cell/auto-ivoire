@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-PDA-NOR-003",
+    "category": "Signalisation",
+    "subcategory": "Panneaux de danger",
+    "difficulty": "Normal",
+    "card_type": "Analyse",
+    "xp": 35,
+    "source": "Code de la route - Art. R411-25"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux de danger",
+    "card_index": "Carte 003 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_danger/normal/SIG-PDA-NOR-003_3d.jpg",
+    "timer_seconds": 12,
+    "question": "Vous approchez d'un panneau annonçant un carrefour giratoire. Quel comportement adopter avant d'y entrer ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ralentir et se préparer à céder le passage aux véhicules déjà engagés",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Accélérer pour s'insérer avant les autres",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "S'arrêter obligatoirement même si la voie est libre",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Klaxonner pour signaler son arrivée",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 35,
+    "correct_option_id": "A",
+    "correct_option_label": "Ralentir et se préparer à céder le passage aux véhicules déjà engagés",
+    "explanation": "Ce panneau de danger prépare le conducteur à ralentir, car en général les véhicules déjà dans l'anneau sont prioritaires.",
+    "2d_schema_url": "assets/images/panneaux_danger/normal/SIG-PDA-NOR-003_2d.png",
+    "takeaway": "Anticipation = vitesse réduite avant d'aborder l'anneau du giratoire."
+  }
+}

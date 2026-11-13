@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-PDA-DIF-005",
+    "category": "Signalisation",
+    "subcategory": "Panneaux de danger",
+    "difficulty": "Difficile",
+    "card_type": "Analyse",
+    "xp": 50,
+    "source": "Code de la route - Art. R412-31"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux de danger",
+    "card_index": "Carte 005 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_danger/difficile/SIG-PDA-DIF-005_3d.jpg",
+    "timer_seconds": 10,
+    "question": "À un passage à niveau sans barrières, le feu rouge clignote alors qu'aucun train n'est visible. Que faites-vous ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Traverser puisque aucun train n'est visible",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Vous arrêter obligatoirement, le feu rouge clignotant impose l'arrêt quel que soit ce que vous voyez",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Klaxonner et avancer lentement",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Attendre 5 secondes puis traverser",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 50,
+    "correct_option_id": "B",
+    "correct_option_label": "Vous arrêter obligatoirement, le feu rouge clignotant impose l'arrêt quel que soit ce que vous voyez",
+    "explanation": "Le feu rouge clignotant à un passage à niveau impose un arrêt absolu ; un train peut arriver plus vite que prévu ou être masqué par la configuration des lieux.",
+    "2d_schema_url": "assets/images/panneaux_danger/difficile/SIG-PDA-DIF-005_2d.png",
+    "takeaway": "Feu rouge clignotant à un passage à niveau = arrêt obligatoire, sans exception."
+  }
+}

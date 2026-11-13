@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-INT-NOR-008",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'interdiction",
+    "difficulty": "Normal",
+    "card_type": "Analyse",
+    "xp": 35,
+    "source": "Code de la route - Art. R411-8"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'interdiction",
+    "card_index": "Carte 008 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_interdiction/normal/SIG-INT-NOR-008_3d.jpg",
+    "timer_seconds": 12,
+    "question": "Un panneau 'interdit sauf riverains' encadre une rue. Vous rendez visite à un ami riverain, êtes-vous concerné par l'exception ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non, seuls les résidents détenteurs d'un justificatif de domicile sont concernés par l'exception",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Oui, tout visiteur d'un riverain est automatiquement exempté",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Oui, si vous restez moins d'une heure",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Non, sauf si vous avez une carte grise de la même commune",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 35,
+    "correct_option_id": "A",
+    "correct_option_label": "Non, seuls les résidents détenteurs d'un justificatif de domicile sont concernés par l'exception",
+    "explanation": "L'exception 'riverains' vise strictement les personnes domiciliées dans la zone concernée, pas leurs simples visiteurs.",
+    "2d_schema_url": "assets/images/panneaux_interdiction/normal/SIG-INT-NOR-008_2d.png",
+    "takeaway": "Une exception 'riverains' ne s'étend pas automatiquement aux visiteurs occasionnels."
+  }
+}

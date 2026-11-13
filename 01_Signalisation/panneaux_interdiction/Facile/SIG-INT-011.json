@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-INT-011",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'interdiction",
+    "difficulty": "Facile",
+    "card_type": "Observation",
+    "xp": 20,
+    "source": "Code de la route - Art. R411-25"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'interdiction",
+    "card_index": "Carte 011 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_interdiction/facile/SIG-INT-011_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Un panneau rond bordé de rouge tout barré d'une diagonale rouge sans dessin (cercle blanc barré) indique :",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fin de toutes les interdictions précédemment signalées",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Interdiction générale absolue de circuler",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Sens interdit",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Route prioritaire",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 20,
+    "correct_option_id": "A",
+    "correct_option_label": "Fin de toutes les interdictions précédemment signalées",
+    "explanation": "Ce panneau spécifique annule les interdictions particulières précédemment imposées sur la section.",
+    "2d_schema_url": "assets/images/panneaux_interdiction/facile/SIG-INT-011_2d.png",
+    "takeaway": "Un cercle blanc barré simple = fin d'interdiction(s) antérieure(s)."
+  }
+}

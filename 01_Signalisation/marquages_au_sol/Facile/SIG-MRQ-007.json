@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-MRQ-007",
+    "category": "Signalisation",
+    "subcategory": "Marquages au sol",
+    "difficulty": "Facile",
+    "card_type": "Observation",
+    "xp": 20,
+    "source": "Code de la route - Art. R415-7"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Marquages au sol",
+    "card_index": "Carte 007 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/marquages_au_sol/facile/SIG-MRQ-007_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Un triangle blanc peint au sol avant une intersection signifie :",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cédez le passage",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Arrêt obligatoire",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Sens interdit",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Priorité absolue",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 20,
+    "correct_option_id": "A",
+    "correct_option_label": "Cédez le passage",
+    "explanation": "Ce marquage reprend au sol l'obligation du panneau 'cédez le passage'.",
+    "2d_schema_url": "assets/images/marquages_au_sol/facile/SIG-MRQ-007_2d.png",
+    "takeaway": "Triangle au sol = céder le passage, comme le panneau correspondant."
+  }
+}

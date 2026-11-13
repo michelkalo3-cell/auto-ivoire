@@ -1,0 +1,59 @@
+{
+  "card_info": {
+    "id": "SIG-FEU-DIF-013",
+    "category": "Signalisation",
+    "subcategory": "Feux",
+    "difficulty": "Difficile",
+    "card_type": "Piège",
+    "xp": 50,
+    "rule_id": "feu_vert_autorisation",
+    "tags": [
+      "feu_vert",
+      "piege",
+      "prudence"
+    ],
+    "source": "Ministère des Transports de Côte d’Ivoire — Sécurité routière"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Feux",
+    "card_index": "Carte 013 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/feux/difficile/SIG-FEU-DIF-013_3d.jpg",
+    "timer_seconds": 12,
+    "question": "Le feu vert s’allume. Un conducteur pense donc qu’il doit obligatoirement avancer immédiatement, même si le carrefour est encombré. Quelle affirmation est correcte ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le vert impose toujours d’avancer",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Le vert autorise le passage, mais le conducteur peut attendre si la circulation ne permet pas de dégager le carrefour",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Le vert autorise à entrer même si l’on reste arrêté au milieu",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Le vert annule toutes les autres règles de prudence",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 50,
+    "correct_option_id": "B",
+    "correct_option_label": "Le vert autorise le passage, mais le conducteur peut attendre si la circulation ne permet pas de dégager le carrefour",
+    "explanation": "Le Ministère des Transports précise que le vert est une autorisation et non une obligation. Si le carrefour est embouteillé, il est recommandé d’attendre que la circulation se fluidifie.",
+    "2d_schema_url": "assets/images/feux/difficile/SIG-FEU-DIF-013_2d.png",
+    "takeaway": "Ne confonds jamais autorisation et obligation : regarde aussi l’espace disponible devant toi.",
+    "source_url": "https://www.transports.gouv.ci/securite-routiere/quelles-informations-cachent-les-feux-tricolores"
+  }
+}

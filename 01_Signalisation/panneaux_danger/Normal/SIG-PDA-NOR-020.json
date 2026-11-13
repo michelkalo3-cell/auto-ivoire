@@ -1,0 +1,57 @@
+{
+  "card_info": {
+    "id": "SIG-PDA-NOR-020",
+    "category": "Signalisation",
+    "subcategory": "Panneaux de danger",
+    "difficulty": "Normal",
+    "card_type": "Chrono",
+    "xp": 35,
+    "source": "https://securiteroutiere.gouv.ci/?q=bonnes-pratiques/ou-se-trouve-le-danger-annonce-par-les-panneaux-de-danger",
+    "rule_id": "reaction_au_danger"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux de danger",
+    "card_index": "Carte 020 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_danger/normal/SIG-PDA-NOR-020_3d.jpg",
+    "timer_seconds": 9,
+    "question": "Vous apercevez un panneau de danger alors que vous roulez à allure élevée. Quelle réaction est la plus sûre ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Attendre de voir le danger avant de réagir",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Adapter immédiatement votre conduite pour pouvoir faire face au danger annoncé",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Accélérer pour réduire le temps d’exposition",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Regarder uniquement le panneau",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 35,
+    "correct_option_id": "B",
+    "correct_option_label": "Adapter immédiatement votre conduite pour pouvoir faire face au danger annoncé",
+    "explanation": "Le rôle du panneau est de donner au conducteur une avance sur le danger. Il doit aménager sa façon de conduire avant de le rencontrer.",
+    "2d_schema_url": "assets/images/panneaux_danger/normal/SIG-PDA-NOR-020_2d.png",
+    "takeaway": "Voyez le panneau comme un avertissement : ralentissez, observez et anticipez."
+  },
+  "tags": [
+    "panneau_danger",
+    "reaction_au_danger"
+  ]
+}

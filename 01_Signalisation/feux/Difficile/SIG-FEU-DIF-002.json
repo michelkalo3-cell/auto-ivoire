@@ -1,0 +1,36 @@
+{
+  "card_info": {
+    "id": "SIG-FEU-DIF-002",
+    "category": "Signalisation",
+    "subcategory": "Feux",
+    "difficulty": "Difficile",
+    "card_type": "Analyse",
+    "xp": 50,
+    "source": "Code de la route - Art. R412-33"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Feux",
+    "card_index": "Carte 002 / 005",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/feux/difficile/SIG-FEU-DIF-002_3d.jpg",
+    "timer_seconds": 10,
+    "question": "Votre feu est vert et vous tournez à gauche. Une voie de tramway longe la route à votre gauche et un tramway arrive. Qui passe ?",
+    "options": [
+      { "id": "A", "text": "Vous, car votre feu est vert", "is_correct": false },
+      { "id": "B", "text": "Le tramway, car il bénéficie toujours de la priorité absolue", "is_correct": true },
+      { "id": "C", "text": "Le véhicule qui a engagé ses roues le premier", "is_correct": false },
+      { "id": "D", "text": "Vous, à condition de faire un appel de phares", "is_correct": false }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 50,
+    "correct_option_id": "B",
+    "correct_option_label": "Le tramway, car il bénéficie toujours de la priorité absolue",
+    "explanation": "Les véhicules de transport guidés (tramways) ont la priorité sur les autres usagers de la route, même si votre feu principal est au vert lors d'une manœuvre d'intersection.",
+    "2d_schema_url": "assets/images/feux/difficile/SIG-FEU-DIF-002_2d.png",
+    "takeaway": "Priorité absolue au tramway, y compris au feu vert."
+  }
+}

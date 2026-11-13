@@ -1,0 +1,36 @@
+{
+  "card_info": {
+    "id": "SIG-FEU-DIF-007",
+    "category": "Signalisation",
+    "subcategory": "Feux",
+    "difficulty": "Difficile",
+    "card_type": "Analyse",
+    "xp": 50,
+    "source": "Code de la route - Art. R415-2"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Feux",
+    "card_index": "Carte 007 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/feux/difficile/SIG-FEU-DIF-007_3d.jpg",
+    "timer_seconds": 10,
+    "question": "Le feu est vert mais la circulation est bloquée de l'autre côté de l'intersection. Quelle est la conduite à tenir ?",
+    "options": [
+      { "id": "A", "text": "S'engager dans l'intersection car le feu est vert", "is_correct": false },
+      { "id": "B", "text": "Attendre avant la ligne d'effet sans bloquer le carrefour", "is_correct": true },
+      { "id": "C", "text": "Dépasser la ligne et s'arrêter au milieu du carrefour", "is_correct": false },
+      { "id": "D", "text": "Forcer le passage en klaxonnant les usagers bloqués", "is_correct": false }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 50,
+    "correct_option_id": "B",
+    "correct_option_label": "Attendre avant la ligne d'effet sans bloquer le carrefour",
+    "explanation": "Même au feu vert, il est interdit de s'engager dans une intersection si l'on risque d'y être immobilisé et de bloquer la circulation transversale.",
+    "2d_schema_url": "assets/images/feux/difficile/SIG-FEU-DIF-007_2d.png",
+    "takeaway": "Carrefour encombré = interdiction de s'engager, même au vert."
+  }
+}

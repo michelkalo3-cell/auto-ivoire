@@ -1,0 +1,36 @@
+{
+  "card_info": {
+    "id": "SIG-FEU-018",
+    "category": "Signalisation",
+    "subcategory": "Feux",
+    "difficulty": "Facile",
+    "card_type": "Observation",
+    "xp": 20,
+    "source": "Code de la route - Art. R415-12"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Feux",
+    "card_index": "Carte 018 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/feux/facile/SIG-FEU-018_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Vous êtes arrêté au feu rouge. Une ambulance en intervention (gyrophare et 2-tons) arrive derrière vous. Que faites-vous ?",
+    "options": [
+      { "id": "A", "text": "Ne pas bouger car franchir le feu est interdit", "is_correct": false },
+      { "id": "B", "text": "Faciliter le passage en vous déportant prudemment, voire en mordant la ligne", "is_correct": true },
+      { "id": "C", "text": "Traverser l'intersection à pleine vitesse pour fuir", "is_correct": false },
+      { "id": "D", "text": "Klaxonner pour demander à l'ambulance d'attendre", "is_correct": false }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 20,
+    "correct_option_id": "B",
+    "correct_option_label": "Faciliter le passage en vous déportant prudemment, voire en mordant la ligne",
+    "explanation": "Tout conducteur doit céder le passage aux véhicules d'intérêt général prioritaires en intervention et leur faciliter la marche par des manœuvres sécurisées.",
+    "2d_schema_url": "assets/images/feux/facile/SIG-FEU-018_2d.png",
+    "takeaway": "Priorité absolue aux véhicules d'urgence : dégagez la voie en toute sécurité."
+  }
+}

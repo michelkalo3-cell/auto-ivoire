@@ -1,0 +1,36 @@
+{
+  "card_info": {
+    "id": "SIG-FEU-DIF-005",
+    "category": "Signalisation",
+    "subcategory": "Feux",
+    "difficulty": "Difficile",
+    "card_type": "Analyse",
+    "xp": 50,
+    "source": "Code de la route - Art. R415-12"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Feux",
+    "card_index": "Carte 005 / 005",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/feux/difficile/SIG-FEU-DIF-005_3d.jpg",
+    "timer_seconds": 10,
+    "question": "Bloqué au feu rouge équipé d'un radar de feu, un SAMU pousse derrière vous. Que devez-vous faire ?",
+    "options": [
+      { "id": "A", "text": "Refuser de bouger pour ne pas déclencher le radar", "is_correct": false },
+      { "id": "B", "text": "Mordre ou franchir la ligne d'effet avec prudence pour libérer la voie", "is_correct": true },
+      { "id": "C", "text": "Accélérer et traverser tout le carrefour à 50 km/h", "is_correct": false },
+      { "id": "D", "text": "Klaxonner pour demander aux véhicules d'en face de reculer", "is_correct": false }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 50,
+    "correct_option_id": "B",
+    "correct_option_label": "Mordre ou franchir la ligne d'effet avec prudence pour libérer la voie",
+    "explanation": "L'obligation de céder le passage aux véhicules d'urgence prime. Si un flash de radar se déclenche, la présence du véhicule prioritaire sur le cliché permet l'annulation de l'amende.",
+    "2d_schema_url": "assets/images/feux/difficile/SIG-FEU-DIF-005_2d.png",
+    "takeaway": "Dégagez la voie pour les secours, même en présence d'un radar de feu."
+  }
+}

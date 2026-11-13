@@ -1,0 +1,36 @@
+{
+  "card_info": {
+    "id": "SIG-FEU-013",
+    "category": "Signalisation",
+    "subcategory": "Feux",
+    "difficulty": "Facile",
+    "card_type": "Observation",
+    "xp": 20,
+    "source": "Code de la route - Art. R412-33-1"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Feux",
+    "card_index": "Carte 013 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/feux/facile/SIG-FEU-013_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Au-dessus de votre voie, une croix rouge est allumée sur un panneau lumineux. Que signifie-t-elle ?",
+    "options": [
+      { "id": "A", "text": "Voie réservée aux véhicules de secours", "is_correct": false },
+      { "id": "B", "text": "Interdiction de circuler sur cette voie", "is_correct": true },
+      { "id": "C", "text": "Arrêt obligatoire au milieu de la voie", "is_correct": false },
+      { "id": "D", "text": "Zone de travaux à 500 mètres", "is_correct": false }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 20,
+    "correct_option_id": "B",
+    "correct_option_label": "Interdiction de circuler sur cette voie",
+    "explanation": "Les feux d'affectation de voie indiquent l'accessibilité des voies : la croix rouge interdit strictement la circulation sur la voie située en dessous.",
+    "2d_schema_url": "assets/images/feux/facile/SIG-FEU-013_2d.png",
+    "takeaway": "Croix rouge au-dessus de la voie = accès interdit, rabattez-vous."
+  }
+}

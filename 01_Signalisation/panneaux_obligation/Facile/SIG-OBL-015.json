@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-OBL-015",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'obligation",
+    "difficulty": "Facile",
+    "card_type": "Observation",
+    "xp": 20,
+    "source": "Code de la route - Art. R411-25"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'obligation",
+    "card_index": "Carte 015 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_obligation/facile/SIG-OBL-015_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Un panneau rond bleu avec un casque de sécurité dessiné (variante chantier) indique :",
+    "options": [
+      {
+        "id": "A",
+        "text": "Port du casque obligatoire dans la zone concernée",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Interdiction de porter un casque",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Zone de vente de casques",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Chantier terminé",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 20,
+    "correct_option_id": "A",
+    "correct_option_label": "Port du casque obligatoire dans la zone concernée",
+    "explanation": "Sur certains sites (chantiers, zones industrielles traversées par une route), ce panneau impose le port d'un équipement de protection.",
+    "2d_schema_url": "assets/images/panneaux_obligation/facile/SIG-OBL-015_2d.png",
+    "takeaway": "Ce type de panneau bleu impose un équipement de sécurité précis dans la zone signalée."
+  }
+}

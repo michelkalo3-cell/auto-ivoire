@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-MRQ-DIF-005",
+    "category": "Signalisation",
+    "subcategory": "Marquages au sol",
+    "difficulty": "Difficile",
+    "card_type": "Analyse",
+    "xp": 50,
+    "source": "Code de la route - Art. R411-8"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Marquages au sol",
+    "card_index": "Carte 005 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/marquages_au_sol/difficile/SIG-MRQ-DIF-005_3d.jpg",
+    "timer_seconds": 10,
+    "question": "Une voie de bus délimitée par une ligne continue est temporairement ouverte à tous les véhicules par arrêté municipal affiché, sans changement du marquage au sol. Pouvez-vous l'emprunter ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non, seul le marquage au sol fait foi",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Oui, un arrêté municipal dûment affiché peut temporairement modifier l'usage d'une voie malgré le marquage existant",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Oui, mais seulement les jours fériés",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Non, sauf autorisation écrite individuelle",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 50,
+    "correct_option_id": "B",
+    "correct_option_label": "Oui, un arrêté municipal dûment affiché peut temporairement modifier l'usage d'une voie malgré le marquage existant",
+    "explanation": "Un arrêté de circulation publié par l'autorité compétente peut modifier temporairement les règles d'usage d'une voie, même si le marquage physique n'a pas encore été actualisé.",
+    "2d_schema_url": "assets/images/marquages_au_sol/difficile/SIG-MRQ-DIF-005_2d.png",
+    "takeaway": "Un arrêté officiel peut prévaloir temporairement sur un marquage non encore mis à jour."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "card_info": {
+    "id": "MAR-SOL-DIF-014",
+    "category": "01_Signalisation",
+    "subcategory": "marquages_au_sol",
+    "difficulty": "difficile",
+    "xp": 40,
+    "aspect_ratio": "4:3",
+    "image_3d": "assets/images/01_Signalisation/marquages_au_sol/3d/MAR-SOL-DIF-014_3d.jpg",
+    "image_2d": "assets/images/01_Signalisation/marquages_au_sol/2d/MAR-SOL-DIF-014_2d.png"
+  },
+  "question_screen": {
+    "question": "Quel est le rôle de la ligne d'effet des feux ?",
+    "options": [
+      "Matérialiser la limite d'arrêt associée aux feux",
+      "Accélérer obligatoirement",
+      "Ignorer le marquage",
+      "S'arrêter au milieu de la chaussée"
+    ],
+    "correct_answer": 0,
+    "timer": {
+      "chrono": 10,
+      "normal": 12
+    }
+  },
+  "explanation_screen": {
+    "title": "Correction",
+    "explanation": "La bonne réponse est : Matérialiser la limite d'arrêt associée aux feux.",
+    "rule_id": "MAR-SOL-014",
+    "tags": [
+      "ligne d'effet des feux",
+      "marquage au sol",
+      "signalisation horizontale"
+    ],
+    "source": "Code Learn CI ; Ministère des Transports de Côte d’Ivoire"
+  }
+}

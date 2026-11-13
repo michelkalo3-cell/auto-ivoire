@@ -1,0 +1,58 @@
+{
+  "card_info": {
+    "id": "SIG-PDA-DIF-015",
+    "category": "Signalisation",
+    "subcategory": "Panneaux de danger",
+    "difficulty": "Difficile",
+    "card_type": "Analyse",
+    "xp": 50,
+    "source": "https://www.securiteroutiere.gouv.ci/?q=bonnes-pratiques%2Fou-se-trouve-le-danger-annonce-par-les-panneaux-de-danger",
+    "rule_id": "PDA-TEMPS_REACTION",
+    "tags": [
+      "temps_de_reaction",
+      "anticipation",
+      "securite"
+    ]
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux de danger",
+    "card_index": "Carte 015 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_danger/difficile/SIG-PDA-DIF-015_3d.jpg",
+    "timer_seconds": 10,
+    "question": "Pourquoi un panneau de danger est-il généralement installé avant la zone dangereuse plutôt qu'au niveau exact du risque?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pour donner au conducteur du temps pour observer, décider et adapter sa conduite",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Pour permettre au conducteur d'accélérer avant le danger",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Pour cacher le danger aux autres usagers",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Pour indiquer que le danger est déjà terminé",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 50,
+    "correct_option_id": "A",
+    "correct_option_label": "Pour donner au conducteur du temps pour observer, décider et adapter sa conduite",
+    "explanation": "Le positionnement en amont permet au conducteur de disposer d'un délai pour prendre les dispositions nécessaires avant de rencontrer le risque.",
+    "2d_schema_url": "assets/images/panneaux_danger/difficile/SIG-PDA-DIF-015_2d.png",
+    "takeaway": "Le panneau donne de l'avance au conducteur sur le danger."
+  }
+}

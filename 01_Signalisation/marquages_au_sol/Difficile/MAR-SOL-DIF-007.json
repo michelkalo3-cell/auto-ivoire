@@ -1,0 +1,37 @@
+{
+  "card_info": {
+    "id": "MAR-SOL-DIF-007",
+    "category": "01_Signalisation",
+    "subcategory": "marquages_au_sol",
+    "difficulty": "difficile",
+    "xp": 40,
+    "aspect_ratio": "4:3",
+    "image_3d": "assets/images/01_Signalisation/marquages_au_sol/3d/MAR-SOL-DIF-007_3d.jpg",
+    "image_2d": "assets/images/01_Signalisation/marquages_au_sol/2d/MAR-SOL-DIF-007_2d.png"
+  },
+  "question_screen": {
+    "question": "Votre voie indique uniquement une direction mais vous voulez aller ailleurs. Que faire ?",
+    "options": [
+      "Choisir suffisamment tôt une voie correspondant à votre direction",
+      "Accélérer obligatoirement",
+      "Ignorer le marquage",
+      "S'arrêter au milieu de la chaussée"
+    ],
+    "correct_answer": 0,
+    "timer": {
+      "chrono": 10,
+      "normal": 12
+    }
+  },
+  "explanation_screen": {
+    "title": "Correction",
+    "explanation": "La bonne réponse est : Choisir suffisamment tôt une voie correspondant à votre direction.",
+    "rule_id": "MAR-SOL-007",
+    "tags": [
+      "flèche de sélection",
+      "marquage au sol",
+      "signalisation horizontale"
+    ],
+    "source": "Code Learn CI ; Ministère des Transports de Côte d’Ivoire"
+  }
+}

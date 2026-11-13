@@ -1,0 +1,36 @@
+{
+  "card_info": {
+    "id": "SIG-OBL-NOR-004",
+    "category": "01_Signalisation",
+    "subcategory": "panneaux_obligation",
+    "difficulty": "normal",
+    "xp": 20,
+    "aspect_ratio": "4:3",
+    "image_3d": "assets/images/01_Signalisation/panneaux_obligation/3d/SIG-OBL-NOR-004_3d.jpg",
+    "image_2d": "assets/images/01_Signalisation/panneaux_obligation/2d/SIG-OBL-NOR-004_2d.png"
+  },
+  "question_screen": {
+    "question": "Vous voyez tardivement un panneau d’obligation. Quelle attitude adopter ?",
+    "options": [
+      "Ralentir et éviter toute manœuvre dangereuse",
+      "Accélérer",
+      "Ignorer le panneau",
+      "Faire une manœuvre brusque"
+    ],
+    "correct_answer": 0,
+    "timer": {
+      "chrono": 10,
+      "normal": 14
+    }
+  },
+  "explanation_screen": {
+    "title": "Correction",
+    "explanation": "Ralentir et éviter toute manœuvre dangereuse.",
+    "rule_id": "SIG-OBL-NOR-004",
+    "tags": [
+      "panneaux d’obligation",
+      "signalisation verticale"
+    ],
+    "source": "Ministère des Transports de Côte d’Ivoire"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-IND-NOR-003",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'indication",
+    "difficulty": "Normal",
+    "card_type": "Analyse",
+    "xp": 35,
+    "source": "Code de la route - Art. R421-1"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'indication",
+    "card_index": "Carte 003 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_indication/normal/SIG-IND-NOR-003_3d.jpg",
+    "timer_seconds": 12,
+    "question": "Vous voyez un panneau indiquant une sortie d'autoroute numérotée, mais vous n'êtes pas sûr d'être sur la bonne route. Que faire ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continuer et vérifier au prochain panneau directionnel de confirmation",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Vous arrêter sur la bande d'arrêt d'urgence pour vérifier",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Faire demi-tour sur l'autoroute",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Freiner brutalement sur la voie de circulation",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 35,
+    "correct_option_id": "A",
+    "correct_option_label": "Continuer et vérifier au prochain panneau directionnel de confirmation",
+    "explanation": "Il ne faut jamais s'arrêter sur la bande d'arrêt d'urgence par simple doute ; il faut continuer prudemment jusqu'au prochain point de confirmation.",
+    "2d_schema_url": "assets/images/panneaux_indication/normal/SIG-IND-NOR-003_2d.png",
+    "takeaway": "En cas de doute sur l'itinéraire, ne jamais s'arrêter dangereusement ; attendre la prochaine indication."
+  }
+}

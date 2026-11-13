@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-INT-DIF-003",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'interdiction",
+    "difficulty": "Difficile",
+    "card_type": "Analyse",
+    "xp": 50,
+    "source": "Code de la route - Art. R411-8"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'interdiction",
+    "card_index": "Carte 003 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_interdiction/difficile/SIG-INT-DIF-003_3d.jpg",
+    "timer_seconds": 10,
+    "question": "Vous conduisez un véhicule de collection dont le poids officiel dépasse légèrement le seuil indiqué par un panneau d'interdiction de tonnage, mais une dérogation préfectorale existe pour ce type de véhicule. Pouvez-vous circuler ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non, aucune dérogation ne peut jamais s'appliquer",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Oui, si vous êtes en mesure de justifier la dérogation officielle en cas de contrôle",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Oui, sans justificatif nécessaire",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Non, sauf accord verbal d'un agent",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 50,
+    "correct_option_id": "B",
+    "correct_option_label": "Oui, si vous êtes en mesure de justifier la dérogation officielle en cas de contrôle",
+    "explanation": "Une dérogation administrative dûment accordée permet de déroger à une interdiction générale, à condition de pouvoir la justifier en cas de contrôle.",
+    "2d_schema_url": "assets/images/panneaux_interdiction/difficile/SIG-INT-DIF-003_2d.png",
+    "takeaway": "Une dérogation officielle documentée peut lever une interdiction générale pour un cas précis."
+  }
+}

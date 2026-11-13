@@ -1,0 +1,57 @@
+{
+  "card_info": {
+    "id": "SIG-PDA-NOR-011",
+    "category": "Signalisation",
+    "subcategory": "Panneaux de danger",
+    "difficulty": "Normal",
+    "card_type": "Analyse",
+    "xp": 35,
+    "source": "https://securiteroutiere.gouv.ci/?q=bonnes-pratiques/ou-se-trouve-le-danger-annonce-par-les-panneaux-de-danger",
+    "rule_id": "croisement_dangereux"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux de danger",
+    "card_index": "Carte 011 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_danger/normal/SIG-PDA-NOR-011_3d.jpg",
+    "timer_seconds": 12,
+    "question": "Un panneau de danger annonce un risque de croisement dangereux. Quelle attitude est la plus prudente ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accélérer pour passer rapidement",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Réduire l’allure et se préparer à rencontrer un autre usager",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Klaxonner en continu",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Ignorer le panneau si la route semble libre",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 35,
+    "correct_option_id": "B",
+    "correct_option_label": "Réduire l’allure et se préparer à rencontrer un autre usager",
+    "explanation": "Un panneau de danger sert à annoncer un risque en amont. Le conducteur doit adapter sa conduite pour pouvoir réagir à temps.",
+    "2d_schema_url": "assets/images/panneaux_danger/normal/SIG-PDA-NOR-011_2d.png",
+    "takeaway": "Anticipez le danger annoncé avant de le rencontrer."
+  },
+  "tags": [
+    "panneau_danger",
+    "croisement_dangereux"
+  ]
+}

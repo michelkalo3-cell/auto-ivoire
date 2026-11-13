@@ -1,0 +1,37 @@
+{
+  "card_info": {
+    "id": "MAR-SOL-DIF-004",
+    "category": "01_Signalisation",
+    "subcategory": "marquages_au_sol",
+    "difficulty": "difficile",
+    "xp": 40,
+    "aspect_ratio": "4:3",
+    "image_3d": "assets/images/01_Signalisation/marquages_au_sol/3d/MAR-SOL-DIF-004_3d.jpg",
+    "image_2d": "assets/images/01_Signalisation/marquages_au_sol/2d/MAR-SOL-DIF-004_2d.png"
+  },
+  "question_screen": {
+    "question": "À un STOP, où immobiliser complètement le véhicule ?",
+    "options": [
+      "À la limite de la ligne d'effet du STOP",
+      "Accélérer obligatoirement",
+      "Ignorer le marquage",
+      "S'arrêter au milieu de la chaussée"
+    ],
+    "correct_answer": 0,
+    "timer": {
+      "chrono": 10,
+      "normal": 12
+    }
+  },
+  "explanation_screen": {
+    "title": "Correction",
+    "explanation": "La bonne réponse est : À la limite de la ligne d'effet du STOP.",
+    "rule_id": "MAR-SOL-004",
+    "tags": [
+      "STOP",
+      "marquage au sol",
+      "signalisation horizontale"
+    ],
+    "source": "Code Learn CI ; Ministère des Transports de Côte d’Ivoire"
+  }
+}

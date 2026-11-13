@@ -1,0 +1,37 @@
+{
+  "card_info": {
+    "id": "MAR-SOL-NOR-020",
+    "category": "01_Signalisation",
+    "subcategory": "marquages_au_sol",
+    "difficulty": "normal",
+    "xp": 20,
+    "aspect_ratio": "4:3",
+    "image_3d": "assets/images/01_Signalisation/marquages_au_sol/3d/MAR-SOL-NOR-020_3d.jpg",
+    "image_2d": "assets/images/01_Signalisation/marquages_au_sol/2d/MAR-SOL-NOR-020_2d.png"
+  },
+  "question_screen": {
+    "question": "Pourquoi respecter les marquages au sol ?",
+    "options": [
+      "Ils donnent des indications et organisent la circulation",
+      "Elle autorise toujours le stationnement",
+      "Elle impose toujours d’accélérer",
+      "Elle remplace tous les panneaux"
+    ],
+    "correct_answer": 0,
+    "timer": {
+      "chrono": 10,
+      "normal": 14
+    }
+  },
+  "explanation_screen": {
+    "title": "Correction",
+    "explanation": "La bonne réponse est : Ils donnent des indications et organisent la circulation. Cette notion relève de la signalisation horizontale et des règles de circulation.",
+    "rule_id": "MAR-SOL-020",
+    "tags": [
+      "rôle",
+      "signalisation horizontale",
+      "code de la route"
+    ],
+    "source": "Code Learn CI — signalisation horizontale ; Ministère des Transports de Côte d’Ivoire"
+  }
+}

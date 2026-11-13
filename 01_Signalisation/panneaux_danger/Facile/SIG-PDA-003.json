@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-PDA-003",
+    "category": "Signalisation",
+    "subcategory": "Panneaux de danger",
+    "difficulty": "Facile",
+    "card_type": "Observation",
+    "xp": 20,
+    "source": "Code de la route - Art. R411-25"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux de danger",
+    "card_index": "Carte 003 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_danger/facile/SIG-PDA-003_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Un panneau triangulaire montrant une voiture qui dérape signifie :",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chaussée glissante",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Chaussée déformée",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Sortie de véhicules",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Gravillons",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 20,
+    "correct_option_id": "A",
+    "correct_option_label": "Chaussée glissante",
+    "explanation": "Ce panonceau prévient d'un risque de perte d'adhérence (pluie, verglas, huile, boue).",
+    "2d_schema_url": "assets/images/panneaux_danger/facile/SIG-PDA-003_2d.png",
+    "takeaway": "Chaussée glissante = réduire sa vitesse et éviter les freinages brusques."
+  }
+}

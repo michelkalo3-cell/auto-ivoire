@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-OBL-012",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'obligation",
+    "difficulty": "Facile",
+    "card_type": "Observation",
+    "xp": 20,
+    "source": "Code de la route - Art. R412-7"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'obligation",
+    "card_index": "Carte 012 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_obligation/facile/SIG-OBL-012_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Un panneau rond bleu avec trois flèches en éventail (gauche, tout droit, droite) indique :",
+    "options": [
+      {
+        "id": "A",
+        "text": "Toutes les directions représentées sont autorisées et obligatoires (aucune autre)",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Une seule direction est permise selon la voie choisie",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Le demi-tour est obligatoire",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Une interdiction de circuler tout droit",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 20,
+    "correct_option_id": "A",
+    "correct_option_label": "Toutes les directions représentées sont autorisées et obligatoires (aucune autre)",
+    "explanation": "Ce panneau signifie que les directions représentées sont les seules autorisées à cet endroit ; toute autre manœuvre est interdite.",
+    "2d_schema_url": "assets/images/panneaux_obligation/facile/SIG-OBL-012_2d.png",
+    "takeaway": "Un panneau à plusieurs flèches liste toutes les directions permises, aucune de plus."
+  }
+}

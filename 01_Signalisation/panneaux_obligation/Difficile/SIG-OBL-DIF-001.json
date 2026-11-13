@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-OBL-DIF-001",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'obligation",
+    "difficulty": "Difficile",
+    "card_type": "Analyse",
+    "xp": 50,
+    "source": "Code de la route - Art. R411-7"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'obligation",
+    "card_index": "Carte 001 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_obligation/difficile/SIG-OBL-DIF-001_3d.jpg",
+    "timer_seconds": 10,
+    "question": "Un panneau de direction obligatoire impose de tourner à droite, mais la voie de droite est en réalité fermée par un accident survenu quelques minutes plus tôt, sans nouvelle signalisation en place. Que faire ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Forcer le passage malgré l'accident",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "S'adapter à la situation réelle en toute sécurité, quitte à déroger ponctuellement à l'obligation si aucune alternative sûre n'existe et qu'un agent ou une évidence claire le justifie",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Rester bloqué indéfiniment devant l'obstacle",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Faire demi-tour à tout prix même dans une zone dangereuse",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 50,
+    "correct_option_id": "B",
+    "correct_option_label": "S'adapter à la situation réelle en toute sécurité, quitte à déroger ponctuellement à l'obligation si aucune alternative sûre n'existe et qu'un agent ou une évidence claire le justifie",
+    "explanation": "Face à une situation exceptionnelle et documentée (accident bloquant), la sécurité réelle prime ; il faut s'adapter prudemment, idéalement en suivant les indications d'un agent présent sur place.",
+    "2d_schema_url": "assets/images/panneaux_obligation/difficile/SIG-OBL-DIF-001_2d.png",
+    "takeaway": "Une obligation de signalisation cède devant une situation réelle de danger avéré et documentée, sous réserve de prudence maximale."
+  }
+}

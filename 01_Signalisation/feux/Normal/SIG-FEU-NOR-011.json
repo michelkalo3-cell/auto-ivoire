@@ -1,0 +1,53 @@
+{
+  "card_info": {
+    "id": "SIG-FEU-NOR-011",
+    "category": "Signalisation",
+    "subcategory": "Feux",
+    "difficulty": "Normal",
+    "card_type": "Analyse",
+    "xp": 35,
+    "source": "Ministère des Transports de Côte d’Ivoire — « Quelles informations cachent les feux tricolores ? » / « Comment communiquer avec les autres usagers ? »"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Feux",
+    "card_index": "Carte 011 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/feux/normal/SIG-FEU-NOR-011_3d.jpg",
+    "timer_seconds": 12,
+    "question": "Votre feu passe au vert, mais la circulation devant vous est bloquée. Quelle décision est la plus sûre ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "M’avancer quand même puisque le feu est vert",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Attendre avant la ligne d’effet jusqu’à ce que l’espace se libère",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Contourner les véhicules par le trottoir",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Entrer dans le carrefour puis m’arrêter au milieu",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 35,
+    "correct_option_id": "B",
+    "correct_option_label": "Attendre avant la ligne d’effet jusqu’à ce que l’espace se libère",
+    "explanation": "Le Ministère des Transports rappelle que le feu vert autorise le passage, mais qu’il est recommandé d’attendre lorsque le carrefour est encombré afin de ne pas aggraver le bouchon.",
+    "2d_schema_url": "assets/images/feux/normal/SIG-FEU-NOR-011_2d.png",
+    "takeaway": "Feu vert = autorisation de passer, pas obligation de s’engager dans un carrefour bloqué.",
+    "source_url": "https://www.transports.gouv.ci/securite-routiere/quelles-informations-cachent-les-feux-tricolores"
+  }
+}

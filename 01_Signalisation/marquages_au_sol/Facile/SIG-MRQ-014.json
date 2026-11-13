@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-MRQ-014",
+    "category": "Signalisation",
+    "subcategory": "Marquages au sol",
+    "difficulty": "Facile",
+    "card_type": "Observation",
+    "xp": 20,
+    "source": "Code de la route - Art. R411-25"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Marquages au sol",
+    "card_index": "Carte 014 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/marquages_au_sol/facile/SIG-MRQ-014_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Des damiers blancs et rouges peints au sol annoncent généralement :",
+    "options": [
+      {
+        "id": "A",
+        "text": "Un ralentisseur ou dos d'âne",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Un passage à niveau",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Une aire d'autoroute",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Une zone piétonne",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 20,
+    "correct_option_id": "A",
+    "correct_option_label": "Un ralentisseur ou dos d'âne",
+    "explanation": "Ce marquage avertit de la présence d'un ralentisseur, invitant à réduire fortement l'allure.",
+    "2d_schema_url": "assets/images/marquages_au_sol/facile/SIG-MRQ-014_2d.png",
+    "takeaway": "Damiers au sol = ralentisseur à l'approche, réduire l'allure."
+  }
+}

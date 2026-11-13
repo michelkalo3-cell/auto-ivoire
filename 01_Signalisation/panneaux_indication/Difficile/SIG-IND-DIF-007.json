@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-IND-DIF-007",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'indication",
+    "difficulty": "Difficile",
+    "card_type": "Analyse",
+    "xp": 50,
+    "source": "Code de la route - Art. R411-25"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'indication",
+    "card_index": "Carte 007 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_indication/difficile/SIG-IND-DIF-007_3d.jpg",
+    "timer_seconds": 10,
+    "question": "Un panneau 'hôpital' est associé à un panonceau 'silence' non conventionnel installé par une association locale, sans valeur légale officielle. Devez-vous en tenir compte ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non, seul un panneau officiel a une valeur contraignante, mais la courtoisie invite à limiter le bruit",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Oui, il a exactement la même valeur qu'un panneau réglementaire",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Non, il faut l'ignorer complètement y compris le bon sens",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Oui, sous peine d'amende automatique",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 50,
+    "correct_option_id": "A",
+    "correct_option_label": "Non, seul un panneau officiel a une valeur contraignante, mais la courtoisie invite à limiter le bruit",
+    "explanation": "Un panonceau non réglementaire n'a pas de valeur contraignante au sens du Code de la route, mais le bon sens et le respect du voisinage d'un hôpital restent recommandés.",
+    "2d_schema_url": "assets/images/panneaux_indication/difficile/SIG-IND-DIF-007_2d.png",
+    "takeaway": "Seule la signalisation réglementaire est contraignante ; le civisme peut aller au-delà sans obligation légale."
+  }
+}

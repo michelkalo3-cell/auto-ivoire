@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-MRQ-NOR-003",
+    "category": "Signalisation",
+    "subcategory": "Marquages au sol",
+    "difficulty": "Normal",
+    "card_type": "Analyse",
+    "xp": 35,
+    "source": "Code de la route - Art. R415-11"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Marquages au sol",
+    "card_index": "Carte 003 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/marquages_au_sol/normal/SIG-MRQ-NOR-003_3d.jpg",
+    "timer_seconds": 12,
+    "question": "Vous approchez d'un passage piéton annoncé par un losange au sol. Aucun piéton n'est visible. Devez-vous ralentir par anticipation ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Non, tant qu'aucun piéton n'est visible",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Oui, il faut lever le pied par anticipation avant d'atteindre le passage réel",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Non, le losange n'a pas de valeur réglementaire",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Oui, mais seulement de nuit",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 35,
+    "correct_option_id": "B",
+    "correct_option_label": "Oui, il faut lever le pied par anticipation avant d'atteindre le passage réel",
+    "explanation": "Le losange sert justement à anticiper : il permet de réduire l'allure avant d'arriver au passage piéton effectif, où un piéton peut surgir.",
+    "2d_schema_url": "assets/images/marquages_au_sol/normal/SIG-MRQ-NOR-003_2d.png",
+    "takeaway": "Anticiper dès le losange, ne pas attendre de voir le passage lui-même."
+  }
+}

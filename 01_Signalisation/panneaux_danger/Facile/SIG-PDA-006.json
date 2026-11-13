@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-PDA-006",
+    "category": "Signalisation",
+    "subcategory": "Panneaux de danger",
+    "difficulty": "Facile",
+    "card_type": "Observation",
+    "xp": 20,
+    "source": "Code de la route - Art. R411-25"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux de danger",
+    "card_index": "Carte 006 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_danger/facile/SIG-PDA-006_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Le panneau représentant une chaussée qui se resserre (deux traits qui convergent) annonce :",
+    "options": [
+      {
+        "id": "A",
+        "text": "Une chaussée rétrécie",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Une déviation",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Une aire de repos",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Un sens unique",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 20,
+    "correct_option_id": "A",
+    "correct_option_label": "Une chaussée rétrécie",
+    "explanation": "Ce panneau prévient d'un rétrécissement de la largeur de la voie, source possible de conflit avec le sens inverse.",
+    "2d_schema_url": "assets/images/panneaux_danger/facile/SIG-PDA-006_2d.png",
+    "takeaway": "Chaussée rétrécie = réduire l'allure et laisser la priorité si nécessaire."
+  }
+}

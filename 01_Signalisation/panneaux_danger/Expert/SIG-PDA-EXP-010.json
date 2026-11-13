@@ -1,0 +1,56 @@
+{
+  "card_info": {
+    "id": "SIG-PDA-EXP-010",
+    "category": "Signalisation",
+    "subcategory": "Panneaux de danger",
+    "difficulty": "Expert",
+    "card_type": "Analyse",
+    "xp": 70,
+    "source": "https://www.securiteroutiere.gouv.ci/?q=bonnes-pratiques%2Fou-se-trouve-le-danger-annonce-par-les-panneaux-de-danger",
+    "tags": [
+      "fonction"
+    ],
+    "rule_id": "signalisation_danger"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux de danger",
+    "card_index": "Carte 010 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_danger/expert/SIG-PDA-EXP-010_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Quelle combinaison décrit le mieux le rôle d’un panneau de danger ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Avertir d’un risque et permettre au conducteur d’anticiper sa conduite",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Donner une autorisation de vitesse élevée",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Remplacer tous les feux de signalisation",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Indiquer une sanction déjà appliquée au conducteur",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 70,
+    "correct_option_id": "A",
+    "correct_option_label": "Avertir d’un risque et permettre au conducteur d’anticiper sa conduite",
+    "explanation": "Les panneaux de danger ont pour fonction d’attirer l’attention sur un risque et de permettre au conducteur d’adapter sa conduite avant de rencontrer ce danger.",
+    "2d_schema_url": "assets/images/panneaux_danger/expert/SIG-PDA-EXP-010_2d.png",
+    "takeaway": "Panneau de danger = anticiper, adapter son allure et rester vigilant."
+  }
+}

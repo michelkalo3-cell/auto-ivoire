@@ -1,0 +1,59 @@
+{
+  "card_info": {
+    "id": "SIG-FEU-EXP-007",
+    "category": "Signalisation",
+    "subcategory": "Feux",
+    "difficulty": "Expert",
+    "card_type": "Analyse",
+    "xp": 70,
+    "rule_id": "intersection_feu",
+    "tags": [
+      "feux_tricolores",
+      "intersection_feu",
+      "analyse"
+    ],
+    "source": "Ministère des Transports de Côte d’Ivoire — Sécurité routière"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Feux",
+    "card_index": "Carte 07 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/feux/expert/SIG-FEU-EXP-007_3d.jpg",
+    "timer_seconds": 15,
+    "question": "À l’approche d’une intersection équipée de feux, quelle attitude correspond à une conduite défensive ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fixer uniquement le feu et ignorer le reste",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Observer la signalisation et l’environnement avant de s’engager",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Accélérer dès que le vert apparaît",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Suivre aveuglément le véhicule devant soi",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 70,
+    "correct_option_id": "B",
+    "correct_option_label": "Observer la signalisation et l’environnement avant de s’engager",
+    "explanation": "Une conduite sûre ne consiste pas seulement à regarder la couleur du feu : il faut tenir compte de l’environnement et de la circulation avant de s’engager.",
+    "2d_schema_url": "assets/images/feux/expert/SIG-FEU-EXP-007_2d.png",
+    "takeaway": "Le feu commande, mais l’observation reste essentielle.",
+    "source_url": "https://transports.gouv.ci/securite-routiere/en-voiture-comment-se-positionner-sur-la-chaussee"
+  }
+}

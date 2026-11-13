@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-PDA-NOR-001",
+    "category": "Signalisation",
+    "subcategory": "Panneaux de danger",
+    "difficulty": "Normal",
+    "card_type": "Analyse",
+    "xp": 35,
+    "source": "Code de la route - Art. R413-17"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux de danger",
+    "card_index": "Carte 001 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_danger/normal/SIG-PDA-NOR-001_3d.jpg",
+    "timer_seconds": 12,
+    "question": "Vous voyez un panneau 'chaussée glissante' alors qu'il pleut depuis une heure. Quelle attitude adopter ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continuer à vitesse normale, le panneau est juste informatif",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Réduire sensiblement la vitesse et augmenter les distances de sécurité",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Accélérer pour traverser rapidement la zone à risque",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Serrer le frein à main pour tester l'adhérence",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 35,
+    "correct_option_id": "B",
+    "correct_option_label": "Réduire sensiblement la vitesse et augmenter les distances de sécurité",
+    "explanation": "Sous la pluie, ce panneau confirme un risque réel de perte d'adhérence ; la seule réponse adaptée est de ralentir et d'espacer les distances.",
+    "2d_schema_url": "assets/images/panneaux_danger/normal/SIG-PDA-NOR-001_2d.png",
+    "takeaway": "Un panneau de danger + conditions réelles défavorables = redoubler de prudence, pas l'ignorer."
+  }
+}

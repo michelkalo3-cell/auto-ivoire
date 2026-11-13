@@ -1,0 +1,36 @@
+{
+  "card_info": {
+    "id": "SIG-FEU-NOR-009",
+    "category": "Signalisation",
+    "subcategory": "Feux",
+    "difficulty": "Normal",
+    "card_type": "Observation",
+    "xp": 35,
+    "source": "Code de la route - Art. R412-33-1"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Feux",
+    "card_index": "Carte 009 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/feux/normal/SIG-FEU-NOR-009_3d.jpg",
+    "timer_seconds": 12,
+    "question": "Sur voie rapide, une flèche orange clignotante orientée en biais vers la gauche est allumée au portique. Que devez-vous faire ?",
+    "options": [
+      { "id": "A", "text": "Rester sur sa voie en ralentissant", "is_correct": false },
+      { "id": "B", "text": "Changer de voie vers la gauche dès que possible", "is_correct": true },
+      { "id": "C", "text": "S'arrêter sur le bas-côté", "is_correct": false },
+      { "id": "D", "text": "Tourner à la prochaine intersection à gauche", "is_correct": false }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 35,
+    "correct_option_id": "B",
+    "correct_option_label": "Changer de voie vers la gauche dès que possible",
+    "explanation": "La flèche lumineuse de rabattement signale que la voie sur laquelle vous circulez va être fermée plus loin. Il faut vous déporter prudemment dans le sens indiqué.",
+    "2d_schema_url": "assets/images/feux/normal/SIG-FEU-NOR-009_2d.png",
+    "takeaway": "Flèche oblique de portique = obligation de changer de voie."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "card_info": {
+    "id": "SIG-FEU-014",
+    "category": "Signalisation",
+    "subcategory": "Feux",
+    "difficulty": "Facile",
+    "card_type": "Observation",
+    "xp": 20,
+    "source": "Code de la route - Art. R412-33-1"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Feux",
+    "card_index": "Carte 014 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/feux/facile/SIG-FEU-014_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Une flèche verte pointée vers le bas est allumée au-dessus de votre voie. Que faites-vous ?",
+    "options": [
+      { "id": "A", "text": "Je peux circuler librement sur cette voie", "is_correct": true },
+      { "id": "B", "text": "Je dois tourner à la prochaine intersection", "is_correct": false },
+      { "id": "C", "text": "Je dois immédiatement changer de voie", "is_correct": false },
+      { "id": "D", "text": "Je dois réduire ma vitesse à 30 km/h", "is_correct": false }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 20,
+    "correct_option_id": "A",
+    "correct_option_label": "Je peux circuler librement sur cette voie",
+    "explanation": "La flèche verte verticale pointée vers le bas confirme que la voie située sous le signal est ouverte à la circulation.",
+    "2d_schema_url": "assets/images/feux/facile/SIG-FEU-014_2d.png",
+    "takeaway": "Flèche verte vers le bas = voie ouverte à la circulation."
+  }
+}

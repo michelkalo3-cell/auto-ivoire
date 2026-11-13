@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-OBL-DIF-005",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'obligation",
+    "difficulty": "Difficile",
+    "card_type": "Analyse",
+    "xp": 50,
+    "source": "Code de la route - Art. R431-1"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'obligation",
+    "card_index": "Carte 005 / 010",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_obligation/difficile/SIG-OBL-DIF-005_3d.jpg",
+    "timer_seconds": 10,
+    "question": "Vous circulez sur une portion où un panneau impose le port du casque pour tout usager de deux-roues motorisé traversant un site industriel routier. Un passager mineur non casqué monte à l'arrière. Qui est responsable en cas de contrôle ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uniquement le passager mineur",
+        "is_correct": false
+      },
+      {
+        "id": "B",
+        "text": "Le conducteur du deux-roues, responsable de la conformité de son équipage y compris de ses passagers",
+        "is_correct": true
+      },
+      {
+        "id": "C",
+        "text": "Personne, un panneau local n'a pas de valeur contraignante",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Uniquement les parents du mineur, absents sur place",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 50,
+    "correct_option_id": "B",
+    "correct_option_label": "Le conducteur du deux-roues, responsable de la conformité de son équipage y compris de ses passagers",
+    "explanation": "Le conducteur d'un deux-roues demeure responsable du respect des obligations de sécurité concernant l'ensemble de son équipage, y compris ses passagers mineurs.",
+    "2d_schema_url": "assets/images/panneaux_obligation/difficile/SIG-OBL-DIF-005_2d.png",
+    "takeaway": "Le conducteur reste responsable de la conformité de sécurité de tous ses passagers, notamment les mineurs."
+  }
+}

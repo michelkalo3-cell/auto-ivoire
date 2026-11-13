@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-OBL-004",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'obligation",
+    "difficulty": "Facile",
+    "card_type": "Observation",
+    "xp": 20,
+    "source": "Code de la route - Art. R411-25"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'obligation",
+    "card_index": "Carte 004 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_obligation/facile/SIG-OBL-004_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Un panneau rond bleu avec des chaînes à neige dessinées indique :",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chaînes ou pneus hiver obligatoires",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Interdiction de circuler en hiver",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Zone de vente de chaînes",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Fin de zone montagneuse",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 20,
+    "correct_option_id": "A",
+    "correct_option_label": "Chaînes ou pneus hiver obligatoires",
+    "explanation": "Ce panneau impose l'équipement en chaînes ou pneus adaptés pour circuler sur la section concernée.",
+    "2d_schema_url": "assets/images/panneaux_obligation/facile/SIG-OBL-004_2d.png",
+    "takeaway": "L'équipement neige devient obligatoire dès ce panneau rencontré."
+  }
+}

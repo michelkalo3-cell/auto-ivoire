@@ -1,0 +1,37 @@
+{
+  "card_info": {
+    "id": "MAR-SOL-DIF-020",
+    "category": "01_Signalisation",
+    "subcategory": "marquages_au_sol",
+    "difficulty": "difficile",
+    "xp": 40,
+    "aspect_ratio": "4:3",
+    "image_3d": "assets/images/01_Signalisation/marquages_au_sol/3d/MAR-SOL-DIF-020_3d.jpg",
+    "image_2d": "assets/images/01_Signalisation/marquages_au_sol/2d/MAR-SOL-DIF-020_2d.png"
+  },
+  "question_screen": {
+    "question": "Le franchissement d'une limite de voie figurée par une ligne continue peut-il être sanctionné en Côte d'Ivoire ?",
+    "options": [
+      "Oui, une contravention peut être appliquée",
+      "Non, jamais",
+      "Seulement la nuit",
+      "Uniquement hors agglomération"
+    ],
+    "correct_answer": 0,
+    "timer": {
+      "chrono": 10,
+      "normal": 12
+    }
+  },
+  "explanation_screen": {
+    "title": "Correction",
+    "explanation": "La bonne réponse est : Oui, une contravention peut être appliquée.",
+    "rule_id": "MAR-SOL-020",
+    "tags": [
+      "sanction",
+      "marquage au sol",
+      "signalisation horizontale"
+    ],
+    "source": "Code Learn CI ; Ministère des Transports de Côte d’Ivoire"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "card_info": {
+    "id": "SIG-OBL-NOR-005",
+    "category": "01_Signalisation",
+    "subcategory": "panneaux_obligation",
+    "difficulty": "normal",
+    "xp": 20,
+    "aspect_ratio": "4:3",
+    "image_3d": "assets/images/01_Signalisation/panneaux_obligation/3d/SIG-OBL-NOR-005_3d.jpg",
+    "image_2d": "assets/images/01_Signalisation/panneaux_obligation/2d/SIG-OBL-NOR-005_2d.png"
+  },
+  "question_screen": {
+    "question": "Un panneau impose de contourner un obstacle par la droite. Peut-on passer à gauche ?",
+    "options": [
+      "Non, respecter le côté imposé",
+      "Accélérer",
+      "Ignorer le panneau",
+      "Faire une manœuvre brusque"
+    ],
+    "correct_answer": 0,
+    "timer": {
+      "chrono": 10,
+      "normal": 14
+    }
+  },
+  "explanation_screen": {
+    "title": "Correction",
+    "explanation": "Non, respecter le côté imposé.",
+    "rule_id": "SIG-OBL-NOR-005",
+    "tags": [
+      "panneaux d’obligation",
+      "signalisation verticale"
+    ],
+    "source": "Ministère des Transports de Côte d’Ivoire"
+  }
+}

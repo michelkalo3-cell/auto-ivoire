@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-OBL-019",
+    "category": "Signalisation",
+    "subcategory": "Panneaux d'obligation",
+    "difficulty": "Facile",
+    "card_type": "Observation",
+    "xp": 20,
+    "source": "Code de la route - Art. R412-1"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Panneaux d'obligation",
+    "card_index": "Carte 019 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/panneaux_obligation/facile/SIG-OBL-019_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Un panneau rond bleu avec une ceinture de sécurité dessinée (variante pédagogique) rappelle :",
+    "options": [
+      {
+        "id": "A",
+        "text": "Le port de la ceinture est une obligation générale, rappelée localement",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "La ceinture est optionnelle sur cette route",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Seuls les passagers avant doivent la porter",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "La ceinture n'est obligatoire que sur autoroute",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 20,
+    "correct_option_id": "A",
+    "correct_option_label": "Le port de la ceinture est une obligation générale, rappelée localement",
+    "explanation": "Bien que l'obligation du port de la ceinture soit générale et permanente, certains panneaux pédagogiques la rappellent localement à titre préventif.",
+    "2d_schema_url": "assets/images/panneaux_obligation/facile/SIG-OBL-019_2d.png",
+    "takeaway": "L'obligation du port de la ceinture s'applique partout et pour tous les occupants, panneau ou non."
+  }
+}

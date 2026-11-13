@@ -1,0 +1,52 @@
+{
+  "card_info": {
+    "id": "SIG-MRQ-010",
+    "category": "Signalisation",
+    "subcategory": "Marquages au sol",
+    "difficulty": "Facile",
+    "card_type": "Observation",
+    "xp": 20,
+    "source": "Code de la route - Art. R411-25"
+  },
+  "question_screen": {
+    "title": "ZÉRO GAOU AU VOLANT",
+    "subtitle": "Maîtrise la route, évite les palabres.",
+    "breadcrumb": "Signalisation > Marquages au sol",
+    "card_index": "Carte 010 / 020",
+    "aspect_ratio": "4:3",
+    "media_url": "assets/images/marquages_au_sol/facile/SIG-MRQ-010_3d.jpg",
+    "timer_seconds": 15,
+    "question": "Une ligne blanche discontinue avec des tirets courts et espaces courts (dite 'de guidage') sert à :",
+    "options": [
+      {
+        "id": "A",
+        "text": "Délimiter les voies de circulation dans un carrefour ou giratoire",
+        "is_correct": true
+      },
+      {
+        "id": "B",
+        "text": "Interdire le dépassement",
+        "is_correct": false
+      },
+      {
+        "id": "C",
+        "text": "Marquer une place handicapée",
+        "is_correct": false
+      },
+      {
+        "id": "D",
+        "text": "Indiquer une sortie d'autoroute uniquement",
+        "is_correct": false
+      }
+    ]
+  },
+  "explanation_screen": {
+    "status_title": "Bonne réponse !",
+    "xp_gained": 20,
+    "correct_option_id": "A",
+    "correct_option_label": "Délimiter les voies de circulation dans un carrefour ou giratoire",
+    "explanation": "Ce marquage aide à guider les véhicules à travers une zone complexe comme un carrefour ou un giratoire.",
+    "2d_schema_url": "assets/images/marquages_au_sol/facile/SIG-MRQ-010_2d.png",
+    "takeaway": "Ligne de guidage = aide au positionnement dans les carrefours complexes."
+  }
+}
